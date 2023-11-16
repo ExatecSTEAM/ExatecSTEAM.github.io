@@ -143,28 +143,27 @@
 
     <!-- Contacto -->
     <div class="contacto mx-auto text-center" id="contacto">
-    <h1>Contacta a Exatec STEAM</h1>
-    <form>
-    {% csrf_token %}
-    <div class="form-row">
-        <div class="col">
-            <div class="form-group">
-                <label for="nombre" class="sr-only">Nombre:</label>
-                <input type="text" required id="nombre" name="nombre" class="form-control rounded-md border-0 custom-input" placeholder="Nombre">
+        <h1>Contacta a Exatec STEAM</h1>
+        <form>
+            <div class="form-row">
+                <div class="col">
+                    <div class="form-group">
+                        <label for="nombre" class="sr-only">Nombre:</label>
+                        <input type="text" required id="nombre" name="nombre" class="form-control rounded-md border-0 custom-input" placeholder="Nombre">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="form-group">
+                        <label for="email" class="sr-only">Email:</label>
+                        <input type="email" required id="email" name="email" class="form-control rounded-md border-0 custom-input" placeholder="Email">
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="col">
             <div class="form-group">
-                <label for="email" class="sr-only">Email:</label>
-                <input type="email" required id="email" name="email" class="form-control rounded-md border-0 custom-input" placeholder="Email">
+                <textarea required id="mensaje" name="mensaje" class="form-control rounded-md border-0 custom-input" placeholder="Mensaje" rows="3"></textarea>
             </div>
-        </div>
-    </div>
-    <div class="form-group">
-        <textarea required id="mensaje" name="mensaje" class="form-control rounded-md border-0 custom-input" placeholder="Mensaje" rows="3"></textarea>
-    </div>
-    <button type="button" class="btn btn-dark custom-btn rounded-lg">Enviar</button>
-    </form>
+            <button type="button" class="btn btn-dark custom-btn rounded-lg">Enviar</button>
+        </form>
     </div>
     <footer class="py-3 footer">
         <ul class="nav justify-content-center border-bottom pb-3 mb-3">
