@@ -53,6 +53,7 @@
     top: 0;
     left: 0;
     z-index: -1;
+    filter: brightness(0.7);
 }
 
 .hero-steam-text {
