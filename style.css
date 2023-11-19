@@ -216,3 +216,57 @@
 .no-bg-color {
     background-color: transparent;
 }
+
+/* Used in the ¿Quiénes somos? page */
+
+.common-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    letter-spacing: -2px;
+}
+
+.dark-blue-text {
+    color: #01284f;
+}
+
+.grey-text {
+    color: #888888;
+}
+
+.common-subtitle {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.center-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.fit-side-image{
+    object-fit: cover;
+    width: 100%;
+}
+
+.dark-blue {
+    background-color: #01284f;
+    color: white;
+}
+
+.some-padding {
+    padding: 3rem 5rem;
+}
+
+.less-padding {
+    padding: 1rem 2rem;
+}
+
+/* End of the ¿Quiénes somos? page */
