@@ -217,7 +217,7 @@
     background-color: transparent;
 }
 
-/* Used in the ¿Quiénes somos? page */
+/* Used in the ¿Quiénes somos?, Escuelas pages */
 
 .common-title {
     font-family: 'Roboto', sans-serif;
@@ -240,6 +240,11 @@
     font-weight: bold;
 }
 
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .center-items {
     display: flex;
     flex-direction: column;
@@ -256,7 +261,15 @@
     width: 100%;
 }
 
-.dark-blue {
+.darker-image {
+    filter: brightness(50%);
+}
+
+.img-more-rounded {
+    border-radius: 1rem;
+}
+
+.dark-blue-bg {
     background-color: #01284f;
     color: white;
 }
@@ -269,4 +282,4 @@
     padding: 1rem 2rem;
 }
 
-/* End of the ¿Quiénes somos? page */
+/* End of the ¿Quiénes somos?, Escuelas pages */
