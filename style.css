@@ -283,3 +283,22 @@
 }
 
 /* End of the ¿Quiénes somos?, Escuelas pages */
+
+/* Niños y jovenes */
+
+.deck-ninos {
+    padding: 9rem;
+}
+
+.ninos {
+    border-radius: 20px;
+}
+
+.ninos .card-title {
+    font-weight: bold;
+}
+
+.deck-ninos .card-img-top {
+    border-radius: 20px;
+    height: 250px;
+}
